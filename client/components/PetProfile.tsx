@@ -15,20 +15,13 @@ function PetProfile() {
     </div>
 
     <div className = "avatar">
-       <img src="client/images/Otis.png" alt = "profile"></img>
-       
+       <img src="client/images/Otis.png" alt = "placeholder"></img>
     </div>
 
-    <div className="feeding">
-        <h3>Feeding</h3>
-        <Checkbox label = "Morning" />
-        <Checkbox label = "Evening" />
+ 
+    <div className="haveya">
+        <Checkbox />
     </div>
-
-    <div className= "exercise">
-        <h3>Exercise</h3>
-        <Checkbox label="Walk" />
-     </div>
      </>
     )   
 }
