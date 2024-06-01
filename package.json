@@ -29,6 +29,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "knex": "^2.5.1",
+    "react-avatar-edit": "^1.2.0",
     "sqlite3": "^5.1.6",
     "superagent": "^8.1.2"
   },

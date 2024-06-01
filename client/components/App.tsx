@@ -1,13 +1,16 @@
 import { useFruits } from '../hooks/useFruits.ts'
+import PetProfile from './PetProfile.tsx'
+
+import Checkbox from './Checkbox.tsx'
 
 function App() {
-  const { data } = useFruits()
-
   return (
     <>
       <div className="app">
-        <h1>Fullstack Boilerplate - with Fruits!</h1>
-        <ul>{data && data.map((fruit) => <li key={fruit}>{fruit}</li>)}</ul>
+      
+
+        <PetProfile />
+
       </div>
     </>
   )
