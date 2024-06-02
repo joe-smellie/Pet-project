@@ -45,7 +45,8 @@ const Checkbox = () => {
         <div className ="task">
             <button
                 className={tasks.dinner ? 'completed' : ''}
-                onClick={() => toggleTask('dinner')}>               {tasks.dinner ? '✓ ' : ''}Dinner
+                onClick={() => toggleTask('dinner')}>               
+                {tasks.dinner ? '✓ ' : ''}Dinner
             </button>
         </div>
 

@@ -10,3 +10,22 @@ body {
   margin: 5px;
 }
 
+.task button {
+  background-color: #FEFFD2;
+  width: 100px;
+  height: 30px;
+}
+
+.signUpForm {
+  position: relative;
+  background: #FFEEA9;
+  border: 1px solid black;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: .5rem;
+}
+
+.signUpForm button{
+  background-color: #FEFFD2;
+}
+

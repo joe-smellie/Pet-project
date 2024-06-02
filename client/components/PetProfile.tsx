@@ -1,5 +1,6 @@
 import Checkbox from "./Checkbox"
 import UploadAvatar from "./Avatar"
+import SetDate from "./Date"
 
 
 // Pet name
@@ -18,7 +19,9 @@ function PetProfile() {
        <img src="client/images/Otis.png" alt = "placeholder"></img>
     </div>
 
- 
+    <div className="date">
+        <SetDate />
+    </div>
     <div className="haveya">
         <Checkbox />
     </div>
