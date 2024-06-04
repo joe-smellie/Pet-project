@@ -11,12 +11,30 @@ body {
 }
 
 .task button {
-  background-color: #FEFFD2;
-  width: 100px;
-  height: 30px;
-}
+    background-color: #FEFFD2;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    width: 200px;
+  }
+  
+  .task button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+  };
+  
+  .task button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+  };
 
-.signUpForm {
+.landing {
   position: relative;
   background: #FFEEA9;
   border: 1px solid black;
@@ -25,7 +43,15 @@ body {
   border-radius: .5rem;
 }
 
-.signUpForm button{
+.landing button{
   background-color: #FEFFD2;
+}
+
+.signUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
