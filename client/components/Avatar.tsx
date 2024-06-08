@@ -20,6 +20,7 @@ function UploadAvatar () {
             <Avatar
                 width={400}
                 height={300}
+                imageWidth={300}
                 onCrop={onCrop}
                 onClose={onClose}
                 src={src}

@@ -3,6 +3,8 @@ import SignUp from "./SignUp";
 import UploadAvatar from "./Avatar";
 
 function Home() {
+
+    // const - put some states here 
     const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = MultiStepForm([
         <SignUp />,
         <div>What's your pet's name?</div>,

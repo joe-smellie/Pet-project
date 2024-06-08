@@ -10,7 +10,7 @@ body {
   margin: 5px;
 }
 
-.task button {
+button {
     background-color: #FEFFD2;
     color: black;
     border-radius: 10em;
@@ -24,12 +24,12 @@ body {
     width: 200px;
   }
   
-  .task button:hover {
+button:hover {
     transform: translateY(-4px) translateX(-2px);
     box-shadow: 2px 5px 0 0 black;
   };
   
-  .task button:active {
+button:active {
     transform: translateY(2px) translateX(1px);
     box-shadow: 0 0 0 0 black;
   };
@@ -43,7 +43,7 @@ body {
   border-radius: .5rem;
 }
 
-.landing button{
+button{
   background-color: #FEFFD2;
 }
 
@@ -55,3 +55,10 @@ body {
   text-align: center;
 }
 
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
