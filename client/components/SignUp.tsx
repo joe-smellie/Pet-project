@@ -7,10 +7,8 @@ function SignUp() {
     const [firstname, setFirstname] = useState("")
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
+    const [location, setLocation] = useState("")
 
-const handleSignUp = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
-}
 
     return (
         <>
@@ -37,7 +35,13 @@ const handleSignUp = (e: React.FormEvent<HTMLFormElement>) => {
                 onChange={(e) => setPassword(e.target.value)}
                 required
             />
-           
+            <input
+            type="location" 
+            placeholder="City" 
+            value={location}
+            onChange={(e) => setLocation(e.target.value)}
+            required
+            />
         </form>
         </>
     )

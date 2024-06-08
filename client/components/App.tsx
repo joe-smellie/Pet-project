@@ -5,6 +5,7 @@ import Checkbox from './Checkbox.tsx'
 import Home from './Home.tsx'
 import Start from './Start.tsx'
 import Avatar from 'react-avatar-edit'
+import { Outlet } from 'react-router-dom'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div className="app">
       
         
-     <Start />
+     <Outlet />
      
 
         

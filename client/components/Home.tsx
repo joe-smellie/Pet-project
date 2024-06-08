@@ -1,13 +1,14 @@
 import MultiStepForm  from "./MultiStepForm";
 import SignUp from "./SignUp";
 import UploadAvatar from "./Avatar";
+import PetName from "./Name";
 
 function Home() {
 
     // const - put some states here 
     const { steps, currentStepIndex, step, isFirstStep, isLastStep, back, next } = MultiStepForm([
         <SignUp />,
-        <div>What's your pet's name?</div>,
+        <PetName />,
         <UploadAvatar />
     ])
    
