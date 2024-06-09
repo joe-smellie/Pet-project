@@ -31,7 +31,7 @@
     "knex": "^2.5.1",
     "react-avatar-edit": "^1.2.0",
     "react-responsive-modal": "^6.4.2",
-    "sqlite3": "^5.1.6",
+    "sqlite3": "^5.1.7",
     "superagent": "^8.1.2"
   },
   "devDependencies": {
