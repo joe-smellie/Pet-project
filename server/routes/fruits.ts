@@ -1,4 +1,4 @@
-import { Router } from 'express'
+/*import { Router } from 'express'
 
 import * as db from '../db/fruits.ts'
 
@@ -16,3 +16,4 @@ router.get('/', async (req, res) => {
 })
 
 export default router
+*/

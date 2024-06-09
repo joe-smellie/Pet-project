@@ -1,4 +1,4 @@
-import express from 'express'
+/*import express from 'express'
 import * as Path from 'node:path'
 
 import fruitRoutes from './routes/fruits.ts'
@@ -18,3 +18,4 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 export default server
+*/
