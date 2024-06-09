@@ -12,7 +12,7 @@ function SignUp() {
 
     return (
         <>
-        <h3>Create Account</h3>
+        <h2>Create Account</h2>
         <form className="signUp">
             <input 
                 type="firstname" 

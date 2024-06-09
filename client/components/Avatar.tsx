@@ -16,7 +16,8 @@ function UploadAvatar () {
     
 
     return (
-        <div>
+        <div className="avatar">
+            <h2>Upload a photo</h2>
             <Avatar
                 width={400}
                 height={300}

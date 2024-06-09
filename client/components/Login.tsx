@@ -18,9 +18,9 @@ return (
     <div className="header">
     <img src="client/images/Petmind.png" alt="petmind"></img>
     </div>
-      <h2>Welcome back</h2>
+     
     <div className="login">
-      
+    <h2>Welcome back</h2>
         <form onSubmit={handleLogin}>
             <input
                 type="email" 
